@@ -3,7 +3,7 @@ import { NavLink, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <BrowserRouter>
         <div className="mx-16 mt-8 flex gap-x-8">
           <NavLink

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import UserSearch from "../components/user-search";
 import UsersList from "../components/users-list";
-import getUsersInfo from "../services/user-info";
+import {getUsersInfo} from "../services/user-info";
 
 function DepartmentPage() {
     const [users, setUsers] = useState(null);
